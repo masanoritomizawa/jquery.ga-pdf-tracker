@@ -37,11 +37,3 @@
 		
 	}
 }(jQuery));
-
-
-jQuery(window).load(function(){
-	jQuery("#colmWrapper").ga_pdf_tracker({
-		delay : 100,
-		extention : ['pdf']
-	});
-});
